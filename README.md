@@ -9,7 +9,7 @@
 
 ## Description
 
-A Puppet module to install async-profiler, a low overhead sampling profiler for Java.
+A Puppet module to install [async-profiler](https://github.com/jvm-profiling-tools/async-profiler), a low overhead sampling profiler for Java.
 
 ## Usage
 
