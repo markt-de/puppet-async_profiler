@@ -1,0 +1,5 @@
+---
+async_profiler::installroot: '/opt'
+async_profiler::manage_symlink: true
+async_profiler::mirror: "https://github.com/jvm-profiling-tools/async-profiler/releases/download"
+async_profiler::symlink_name: 'async-profiler'
