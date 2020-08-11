@@ -1,5 +1,10 @@
 ---
+async_profiler::capabilities:
+  - 'cap_sys_admin=eip'
+  - 'cap_sys_ptrace=eip'
+  - 'cap_syslog=eip'
 async_profiler::installroot: '/opt'
+async_profiler::manage_capabilities: true
 async_profiler::manage_symlink: true
 async_profiler::mirror: "https://github.com/jvm-profiling-tools/async-profiler/releases/download"
 async_profiler::symlink_name: 'async-profiler'
