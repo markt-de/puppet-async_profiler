@@ -7,6 +7,13 @@
   "source": "https://github.com/markt-de/puppet-async_profiler",
   "project_page": "https://github.com/markt-de/puppet-async_profiler",
   "issues_url": "https://github.com/markt-de/puppet-async_profiler/issues",
+  "tags": [
+    "java",
+    "jvm",
+    "jdk",
+    "profiler",
+    "profiling"
+  ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
