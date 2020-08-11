@@ -12,6 +12,7 @@
 
 #### Private Classes
 
+* `async_profiler::config`: Auxiliary configuration for async-profiler
 * `async_profiler::install`: Download and extract the distribution archive.
 
 ## Classes
@@ -42,6 +43,18 @@ Specifies the base URL where the distribution archive can be downloaded.
 Data type: `String`
 
 Specifies the version of async-profiler that should be installed.
+
+##### `capabilities`
+
+Data type: `Array`
+
+
+
+##### `manage_capabilities`
+
+Data type: `Boolean`
+
+
 
 ##### `manage_symlink`
 
