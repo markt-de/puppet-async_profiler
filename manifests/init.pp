@@ -1,7 +1,7 @@
 # @summary Setup async-profiler
 #
 # @param installroot
-#   Specifies the base directory where ansy-profiler should be installed. A new
+#   Specifies the base directory where async-profiler should be installed. A new
 #   subdirectory for each version will be created.
 #
 # @param mirror

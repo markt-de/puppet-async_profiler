@@ -1,4 +1,4 @@
-# @summary Download and extract the distribution archive.
+# @summary Download and extract the distribution archive
 # @api private
 class async_profiler::install {
   assert_private()
