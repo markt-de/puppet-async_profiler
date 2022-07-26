@@ -8,8 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [v1.1.1]
 
 ### Changed
-* update OS version, Puppet version and dependencies
-
+* Update OS version, Puppet version and dependencies
+* Update PDK from 1.18.1 to 2.5.0
 
 ## [v1.1.0]
 
