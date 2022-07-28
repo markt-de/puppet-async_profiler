@@ -21,7 +21,7 @@ class async_profiler::install {
     file { "${async_profiler::installroot}/${async_profiler::symlink_name}":
       ensure  => link,
       target  => $distribution_dir,
-      require => Archive["${async_profiler::installroot}/${archive_name}"]
+      require => Archive["${async_profiler::installroot}/${archive_name}"],
     }
   }
 }

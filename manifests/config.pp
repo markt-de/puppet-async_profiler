@@ -9,7 +9,7 @@ class async_profiler::config {
 
   if ($async_profiler::manage_capabilities) {
     file_capability { $profiler_exec:
-      capability => $async_profiler::capabilities
+      capability => $async_profiler::capabilities,
     }
   }
 }
