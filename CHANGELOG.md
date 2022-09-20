@@ -10,9 +10,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 * Fix module dependencies
 
-### Changed
-* Update OS version, Puppet version and dependencies
-
 ## [v1.2.0]
 
 ### Changed
