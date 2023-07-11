@@ -1,5 +1,5 @@
 {
-  "name": "fraenki-async_profiler",
+  "name": "markt-async_profiler",
   "version": "1.2.1",
   "author": "markt.de",
   "summary": "Setup a low overhead sampling profiler for Java",
