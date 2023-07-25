@@ -25,7 +25,7 @@
 #
 class async_profiler (
   Array $capabilities,
-  Stdlib::Compat::Absolute_path $installroot,
+  Stdlib::Absolutepath $installroot,
   Boolean $manage_capabilities,
   Boolean $manage_symlink,
   Variant[Stdlib::HTTPUrl,Stdlib::HTTPSUrl] $mirror,
