@@ -13,58 +13,67 @@
 #### Private Classes
 
 * `async_profiler::config`: Auxiliary configuration for async-profiler
-* `async_profiler::install`: Download and extract the distribution archive.
+* `async_profiler::install`: Download and extract the distribution archive
 
 ## Classes
 
-### `async_profiler`
+### <a name="async_profiler"></a>`async_profiler`
 
 Setup async-profiler
 
 #### Parameters
 
-The following parameters are available in the `async_profiler` class.
+The following parameters are available in the `async_profiler` class:
 
-##### `installroot`
+* [`capabilities`](#-async_profiler--capabilities)
+* [`installroot`](#-async_profiler--installroot)
+* [`manage_capabilities`](#-async_profiler--manage_capabilities)
+* [`manage_symlink`](#-async_profiler--manage_symlink)
+* [`mirror`](#-async_profiler--mirror)
+* [`symlink_name`](#-async_profiler--symlink_name)
+* [`version`](#-async_profiler--version)
+
+##### <a name="-async_profiler--capabilities"></a>`capabilities`
+
+Data type: `Array`
+
+A list of profiler capabilities.
+
+##### <a name="-async_profiler--installroot"></a>`installroot`
 
 Data type: `Stdlib::Compat::Absolute_path`
 
-Specifies the base directory where ansy-profiler should be installed. A new
+Specifies the base directory where async-profiler should be installed. A new
 subdirectory for each version will be created.
 
-##### `mirror`
+##### <a name="-async_profiler--manage_capabilities"></a>`manage_capabilities`
+
+Data type: `Boolean`
+
+Whether to manage profiler capabilities.
+
+##### <a name="-async_profiler--manage_symlink"></a>`manage_symlink`
+
+Data type: `Boolean`
+
+Whether to maintain a symlink for the current version.
+
+##### <a name="-async_profiler--mirror"></a>`mirror`
 
 Data type: `Variant[Stdlib::HTTPUrl,Stdlib::HTTPSUrl]`
 
 Specifies the base URL where the distribution archive can be downloaded.
 
-##### `version`
+##### <a name="-async_profiler--symlink_name"></a>`symlink_name`
+
+Data type: `String`
+
+Controls the name of a version-independent symlink. It will always point
+to the release specified by `$version`.
+
+##### <a name="-async_profiler--version"></a>`version`
 
 Data type: `String`
 
 Specifies the version of async-profiler that should be installed.
-
-##### `capabilities`
-
-Data type: `Array`
-
-
-
-##### `manage_capabilities`
-
-Data type: `Boolean`
-
-
-
-##### `manage_symlink`
-
-Data type: `Boolean`
-
-
-
-##### `symlink_name`
-
-Data type: `String`
-
-
 
