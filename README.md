@@ -1,4 +1,7 @@
 # puppet-async_profiler
+[![Build Status](https://github.com/markt-de/puppet-async_profiler/actions/workflows/ci.yaml/badge.svg)](https://github.com/markt-de/puppet-async_profiler/actions/workflows/ci.yaml)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/markt/async_profiler.svg)](https://forge.puppetlabs.com/markt/async_profiler)
+[![Puppet Forge](https://img.shields.io/puppetforge/f/markt/async_profiler.svg)](https://forge.puppetlabs.com/markt/async_profiler)
 
 ## Table of Contents
 
