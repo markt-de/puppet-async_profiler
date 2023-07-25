@@ -4,5 +4,9 @@ fixtures:
     archive: "puppet/archive"
     file_capability: "stm/file_capability"
     stdlib: "puppetlabs/stdlib"
+  repositories:
+    facts: "https://github.com/puppetlabs/puppetlabs-facts.git"
+    provision: "https://github.com/puppetlabs/provision.git"
+    puppet_agent: "https://github.com/puppetlabs/puppetlabs-puppet_agent.git"
   symlinks:
     async_profiler: "#{source_dir}"
