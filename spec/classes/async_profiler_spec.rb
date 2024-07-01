@@ -8,7 +8,7 @@ describe 'async_profiler' do
       let(:facts) { facts }
 
       context 'with default parameters' do
-        let :params do
+        let(:params) do
           {
             version: PROFILER_VERSION.to_s,
           }
